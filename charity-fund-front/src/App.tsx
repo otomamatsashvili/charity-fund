@@ -1,10 +1,10 @@
-import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from 'pages/Home';
 
 const App = () => {
   return (
     <div>
-      <Button>Hello there</Button>
+      <Home />
     </div>
   );
 };
